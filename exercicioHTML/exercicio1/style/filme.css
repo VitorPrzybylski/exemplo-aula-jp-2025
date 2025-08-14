@@ -1,0 +1,25 @@
+body{
+    font-family:monospace,Arial, Helvetica, sans-serif;
+    background-color: beige;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 17px;
+    margin: 0 0 0 20%;
+}
+main{
+    margin: 10px;
+}
+h1{
+    color:rosybrown;
+    font-size: 35px;
+}
+h2{
+    font-size: 25px;
+    color: chocolate;
+
+}
+img{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 0 0 0 0;
+}
