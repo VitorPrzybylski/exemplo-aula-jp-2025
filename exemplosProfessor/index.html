@@ -11,7 +11,7 @@
 
    
     <!--Cabeçalho  -->
-    <header>
+    <header id = "Header">
        <h1>
             Minha Primeira página HTML
        </h1>
@@ -75,18 +75,14 @@
                     <input type="file" name="anexo" id="anexo">
                 </div>
                 <button type="submit">Enviar</button>
-                
+                <button type="button" id="buttonExemploJS">ExemploJS</button>
             </form>
         </section>
     </main>
     <!-- Rodapé -->
-     <footer> 
+     <footer id="footerMudanca"> 
         Minha Primeira página - &copy; Todos os direitos reservados
      </footer>
-      <script>
-        const element = document.getElementById("exemplo-get")
-        console.log(element)
-        element.style.color = 'blue';
-    </script>
+      <script src="./scripts/exemplo.js"></script>
 </body>
 </html>
